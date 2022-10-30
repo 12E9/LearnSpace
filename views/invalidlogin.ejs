@@ -1,0 +1,20 @@
+<%-include('header')-%>
+<div class="text-center center-div" id="login">
+    <div class="container w-25 border py-5">
+        <div class="title pb-5">
+            <h2 class="font-weight-bold" id="invalid">Invalid Credentials</h2>
+            
+        </div>
+        <h4>login in again</h4>
+        <form class="form-inline my-2 my-lg-0" action="/route/signin">
+            <button type="submit" class="btn btn-success rounded-pill">Login</button>
+            
+        </form>
+        <h4>If you not registered first signup</h4>
+        <form class="form-inline my-2 my-lg-0" action="/route/signup">
+            <button type="submit" class="btn btn-success rounded-pill">Sign up</button>
+            
+        </form>
+    </div>
+</div>
+<%-include('footer')-%>

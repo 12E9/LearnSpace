@@ -1,0 +1,52 @@
+<%-include('header')-%>
+    <div class="text-center center-div pt-5 pb-5" id="login">
+        <div class="container w-25 border pb-3 ">
+            <h3>Welcome to Dashboard</h3>
+            <form class="form-inline my-2 my-lg-0" action="/route/logout">
+                <button type="submit" class="btn btn-success rounded-pill">LOGOUT</button>
+                
+              </form>
+            
+        </div>
+        
+    </div>
+<!--  -->
+<div class="card-group">
+    <div class="card pb-3">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEC2QU6JCUFIv6IvBeciCUdLmAPu7UPgTb5IJ9GhAY_jeLeeJi2OgV0VBqbAMjLU7xgwQ&usqp=CAU" alt="Card image cap">    
+        <div class="card-body">
+          <h5 class="card-title">Bootcamps</h5>
+          <p class="card-text">Boot camp training is a way to train developers and other technical professionals to acquire deep skills in new technologies in a short period of time.</p>
+          <form class="form-inline my-2 my-lg-0" action="/route/bootcamps">
+              <button type="submit" class="btn btn-success rounded-pill">View Details</button>
+              
+            </form>
+        </div>
+      </div>
+      <div class="card pb-3">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7J1mx1v2eZrWxT1z9tVCsN2Ud-SxGlawVw&usqp=CAU">
+        <div class="card-body">
+          <h5 class="card-title">Workshops</h5>
+          <p class="card-text">A usually brief intensive educational program for a relatively small group of people that focuses especially on techniques and skills in a particular field.</p>
+          <form class="form-inline my-2 my-lg-0" action="/route/workshops">
+              <button type="submit" class="btn btn-success rounded-pill">View Details</button>
+              
+            </form>
+        </div>
+      </div>
+      <div class="card pt-3 ">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2sJNQ6kb77vvNc2GiK6ngs5N69vqfkSQwg&usqp=CAU"height="235">
+          <div class="card-body">
+            <h5 class="card-title">Master Classes</h5>
+            <p class="card-text">A class taught by someone who has an expert knowledge or skill in a particular area.</p>
+            <form class="form-inline my-2 my-lg-0" action="/route/masterclasses">
+                <button type="submit" class="btn btn-success rounded-pill">View Details</button>
+                
+              </form>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+  <%-include('footer')-%>

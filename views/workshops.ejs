@@ -1,0 +1,47 @@
+<%-include('header')-%>
+<div class="text-center center-div pt-10 pb-5">
+    <div class="container w-30 border ">
+        <h1>Current WorkShops List</h1>
+    </div>
+</div>
+<div class="text-center center-div pt-5 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">List</th>
+                <th scope="col">Register</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Digital Marketing 7 days workshop</td>
+                <td>
+                    <form class="form-inline my-2 my-lg-0" action="/route/dmregistration">
+                        <button type="submit" class="btn btn-success rounded-pill">Register</button>
+                        
+                      </form>
+                </td>
+                
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Cloud Computing Workshop</td>
+                <td><form class="form-inline my-2 my-lg-0" action="/route/ccregistration">
+                    <button type="submit" class="btn btn-success rounded-pill">Register</button>
+                    
+                  </form></td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+
+  <%-include('footer')-%>

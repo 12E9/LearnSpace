@@ -1,0 +1,82 @@
+<%-include('header')-%>
+<nav class="navbar navbar-expand-lg navbar-light">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <h1>Learn Space</h1>
+    
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <form class="form-inline my-2 my-lg-0" action="/route/signin">
+        
+        <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">LOGIN</button>
+      </form>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <form class="form-inline my-2 my-lg-0" action="/route/signup">
+        
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SIGNUP</button>
+      </form>
+    </div>
+</nav>
+<div class="card-group pt-5">
+  <div class="card pb-3">
+      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEC2QU6JCUFIv6IvBeciCUdLmAPu7UPgTb5IJ9GhAY_jeLeeJi2OgV0VBqbAMjLU7xgwQ&usqp=CAU" alt="Card image cap">    
+      <div class="card-body">
+        <h5 class="card-title">Bootcamps</h5>
+        <p class="card-text">Boot camp training is a way to train developers and other technical professionals to acquire deep skills in new technologies in a short period of time.</p>
+        <p>You can register for bootcamps by login</p>
+        <form class="form-inline my-2 my-lg-0" action="/route/signin">
+            <button type="submit" class="btn btn-success rounded-pill">Login</button>
+            
+          </form>
+          <form class="form-inline my-2 my-lg-0 pt-2" action="/route/bcregisteredmembers">
+            <button type="submit" class="btn btn-outline-success my-2 my-sm-0 ">Registered Members</button>
+            
+          </form>
+      </div>
+    </div>
+    <div class="card pb-3">
+      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7J1mx1v2eZrWxT1z9tVCsN2Ud-SxGlawVw&usqp=CAU">
+      <div class="card-body">
+        <h5 class="card-title">Workshops</h5>
+        <p class="card-text">A usually brief intensive educational program for a relatively small group of people that focuses especially on techniques and skills in a particular field.</p>
+        <p>You can register for Workshops by login</p>
+        <form class="form-inline my-2 my-lg-0" action="/route/signin">
+            <button type="submit" class="btn btn-success rounded-pill">Login</button>
+            
+          </form>
+          <form class="form-inline my-2 my-lg-0 pt-2" action="/route/wsregisteredmembers">
+            <button type="submit" class="btn btn-outline-success my-2 my-sm-0 ">Registered Members</button>
+            
+          </form>
+      </div>
+    </div>
+    <div class="card pt-3 ">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2sJNQ6kb77vvNc2GiK6ngs5N69vqfkSQwg&usqp=CAU"height="235">
+        <div class="card-body">
+          <h5 class="card-title">Master Classes</h5>
+          <p class="card-text">A class taught by someone who has an expert knowledge or skill in a particular area.</p>
+          <p>You can register for Master classes by login</p>
+          <form class="form-inline my-2 my-lg-0" action="/route/signin">
+              <button type="submit" class="btn btn-success rounded-pill">Login</button>
+              
+            </form>
+            <form class="form-inline my-2 my-lg-0 pt-2" action="/route/mcregisteredmembers">
+              <button type="submit" class="btn btn-outline-success my-2 my-sm-0 ">Registered Members</button>
+              
+            </form>
+        </div>
+      </div>
+    
+  </div>
+</div>
+    
+<%-include('footer')-%>

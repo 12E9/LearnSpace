@@ -1,0 +1,26 @@
+<%-include('header')-%>
+<div class="text-center center-div" id="login">
+    <div class="container w-25 border py-5">
+        <div class="title pb-5">
+            <h2 class="font-weight-bold">Registration for Technical Analysis Master Class</h2>
+            
+        </div>
+        <form action="/route/TAmasterclass" method="GET">
+            <div class="form-group pb-3">
+                <input type="text" class="form-control" placeholder="First_Name" name="first_name">
+                
+            </div>
+            <div class="form-group pb-3">
+                <input type="text" class="form-control" placeholder="Last_Name" name="last_name">
+                
+            </div>
+            <div class="form-group pb-3">
+                <input type="email" class="form-control" placeholder="Email" name="email">
+                
+            </div>
+            
+            <button type="submit" class="btn btn-success rounded-pill">Register</button>
+        </form>
+    </div>
+</div>
+<%-include('footer')-%>

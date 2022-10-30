@@ -1,0 +1,63 @@
+<%-include('header')-%>
+<div class="text-center center-div pt-3">
+    <div class="container ">
+        <div class="title">
+            <h2 class="font-weight-bold">Workshop Registered Members</h2>  
+        </div>
+        
+    </div>
+</div>
+<div class="text-center center-div pt-5 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+                <h5>1.Digital Marketing Workshop</h5>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Registered Members</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<dmworkshopData.length;i++) { %>
+                    <tr>
+                        <th scope="row"><%= i+1 %></th>
+                        <td><%= dmworkshopData[i].name %></td>
+                    </tr>
+                    
+                <% } %>  
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+<div class="text-center center-div pt-2 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+                <h5>2.Cloud Computing Workshop</h5>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Registered Members</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<ccworkshopData.length;i++) { %>
+                    <tr>
+                        <th scope="row"><%= i+1 %></th>
+                        <td><%= ccworkshopData[i].name %></td>
+                    </tr>
+                    
+                <% } %>  
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+
+<%-include('footer')-%>

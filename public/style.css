@@ -1,0 +1,18 @@
+.center-div{
+    padding-top: 10%;
+}
+nav{
+    background-color:rgb(238, 215, 226);
+}
+
+form{
+    padding:0 3em;
+}
+body{
+    background-image: url('./assessts/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: aliceblue;
+}

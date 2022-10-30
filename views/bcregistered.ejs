@@ -1,0 +1,88 @@
+<%-include('header')-%>
+<div class="text-center center-div pt-3">
+    <div class="container ">
+        <div class="title">
+            <h2 class="font-weight-bold">Bootcamp Registered Members</h2>  
+        </div>
+        
+    </div>
+</div>
+<div class="text-center center-div pt-5 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+                <h5>1.The Complete Web Development Bootcamp</h5>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Registered Members</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<wdbootcampData.length;i++) { %>
+                    <tr>
+                        <th scope="row"><%= i+1 %></th>
+                        <td><%= wdbootcampData[i].name %></td>
+                    </tr>
+                    
+                <% } %>  
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+<div class="text-center center-div pt-2 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+                <h5>2.Softwre Development Bootcamp</h5>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Registered Members</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<sdbootcampData.length;i++) { %>
+                    <tr>
+                        <th scope="row"><%= i+1 %></th>
+                        <td><%= sdbootcampData[i].name %></td>
+                    </tr>
+                    
+                <% } %>  
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+<div class="text-center center-div pt-2 pb-5">
+    <div class="container w-30 border ">
+        <table class="table">
+            <thead class="thead-dark">
+                <h5>3.Data Science Bootcamp</h5>
+              <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Registered Members</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0;i<dsbootcampData.length;i++) { %>
+                    <tr>
+                        <th scope="row"><%= i+1 %></th>
+                        <td><%= dsbootcampData[i].name %></td>
+                    </tr>
+                    
+                <% } %>  
+            </tbody>
+          </table>
+        
+    </div>
+    
+</div>
+<%-include('footer')-%>
